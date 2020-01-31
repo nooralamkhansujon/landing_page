@@ -1,0 +1,259 @@
+@import "blue.css";
+@import "green.css";
+@import "yellow.css";
+
+.main-wrapper-resume{
+    margin:0 auto;
+}
+
+.carttitle-wrapper
+{
+  position:relative;
+
+}
+.color-box{
+  position:absolute;
+  left:-50px;
+  display:flex;
+  flex-direction:column;
+}
+
+.color-box button{
+    visibility:hidden;
+    width:30px;
+    height:30px;
+    border:0.5px solid black;
+    transition:visibility 0.1s ease;
+}
+/* me dekho there photo  */
+
+.button_show{
+    visibility: visible !important;
+}
+
+#red-color{
+    background:rgb(196, 44, 44);
+}
+
+#blue-color{
+    background:rgb(55, 24, 165);
+}
+
+#green-color{
+    background:rgb(12, 163, 32);
+}
+#yellow-color{
+    background:rgb(201, 201, 16);
+}
+
+#setting-icon{
+    visibility: visible !important;
+}
+.bg-color-left{
+   background:#fff;   
+}
+.bg-color-1{
+    background:rgb(248, 247, 247);
+}
+
+.left-name{
+    padding:15px;
+}
+.left-name h2{
+    font-weight:700;
+    font-size:45px;
+}
+.left-name h2.text-color{
+    display:block;
+}
+.left-name h5{
+    background:rgb(53, 51, 51);
+    border-radius:10px;
+    color:#fff;
+    width:auto;
+    display:inline-block;
+    padding:10px;
+}
+
+.left-name p{
+    text-align:justify;
+    color:rgb(90, 87, 87);
+}
+
+.text-color{
+    color:rgb(196, 44, 44);
+    text-align:left;
+    padding-right:5px;
+    text-transform: uppercase;
+    line-height:40px;
+}
+
+.left-address{
+     background:#fff;
+     padding:10px;
+}
+.left-address ul li{
+    line-height: 30px;
+}
+
+.bg-color{
+    background:rgb(156, 57, 57);
+}
+
+.ex-heading{
+    background:rgb(156, 57, 57);
+    color:rgb(63, 56, 56);
+    padding:10px;
+    letter-spacing: 0.5px;
+}
+
+.ex-heading h4{
+  color:#fff;
+}
+
+.ex-box{
+    padding:10px;
+}
+.ex-box p{
+    color:rgb(78, 74, 74);
+}
+.ex-box h5{
+    background:rgb(156, 57, 57);
+    margin-top:10px;
+    display   :inline-block;
+    border    :1px solid rgb(156, 57, 57);
+    padding   :10px;
+    border-radius:15px;
+    text-align:center;
+}
+.box_education h5{
+  display:block;
+  width:150px;
+}
+.box_education h2{
+    color:#fff;
+    padding:5px;
+    font-size:20px;
+}
+.box_education p{
+    color:#fff;
+}
+
+.developer_name{
+    display:block;
+}
+
+.top-skills{
+    display:flex;
+    justify-content:center;
+}
+.skill-name{
+    padding:10px;
+}
+.skill-name ul li{
+    list-style-type:dotted;
+}
+.sn{
+    width:60px;
+    height:60px;
+    border:4px solid rgb(156, 57, 57);
+    border-radius:50%;
+    text-align:center;
+    padding-top:12px;
+    color:#fff;
+    font-weight:500;
+}
+
+.dot-site{
+  display:flex;
+  margin-top:10px;
+  margin-left:10px;
+}
+
+.dot1{
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:#fff;
+    margin-left:3px;
+}
+
+.dot1:first-child{
+    margin-left:0px;
+}
+
+.bg-color-right{
+    background:black;
+}
+.heading-skills{
+    color:#fff;
+}
+
+
+.heading-skills h4{
+    background:rgb(156, 57, 57);
+    padding:10px;
+}
+.skills_box{
+    color:#fff;
+}
+
+.interest-box{
+    color:#fff;
+}
+
+.interest-content{
+   background:rgb(104, 96, 96);
+}
+.interest-icons {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding-top:15px;
+}
+
+.interest-icons .fa{
+   font-size:26px;
+   text-align:center;
+}
+
+
+
+.heading-skills h3,.heading-skills h4{
+    margin-bottom:10px;
+    color:#fff;
+    margin-top:10px;
+   
+}
+.heading-skills .ex-box {
+    background:black;
+}
+
+.interest-box{
+    padding:10px;
+}
+
+.qr-box{
+    background:#fff;
+    
+}
+.qr-box img{
+    width:150px;
+    height:150px;
+}
+
+.address-right-box ul li{
+    display:flex;
+}
+
+.address-right-box ul li .fa{
+    margin-right:5px;
+    margin-top:5px;
+    color:rgb(156, 57, 57);
+}
+
+.address-right-box ul li p{
+    color:#fff;
+}
+
